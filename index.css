@@ -36,6 +36,19 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 25px;   
     
 }
+@media (max-width: 600px) {
+    #time{
+    font-size: 60px;
+ }
+ .button-container{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+ }
+ button{
+    height: 60px;
+    width: 60%;
+ }
